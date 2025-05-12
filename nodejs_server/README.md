@@ -1,4 +1,8 @@
-## Các tính năng chính ServerServer
+# 🚧 PoLoT - Server ứng dụng
+
+Đây là server của ứng dụng **PoLoT** phục vụ cho việc lưu trữ, cung cấp thông tin, kết nối người dùng với nhau. Mỗi khi ổ gà được ghi nhận từ ứng dụng gửi về server để lưu trữ vàvà xây dựng bản đồ cảnh báo ổ gà.
+
+## Các tính năng chính Server
 
 ### 👤 Xác thực người dùng (Auth)
 

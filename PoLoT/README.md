@@ -2,9 +2,9 @@
   <img src="logo.png" alt="Welcome" width="50%" />
 </p>
 
-# 🚧 Pothole Detector - Ứng dụng Android
+# 🚧 PoLoT - Ứng dụng Android
 
-Ứng dụng Android giúp phát hiện **ổ gà (pothole)** trên đường bằng cách sử dụng **cảm biến gia tốc (Accelerometer)** trên thiết bị di động. Mỗi sự kiện va chạm được ghi nhận, định vị và gửi về server để phân tích và xây dựng bản đồ cảnh báo ổ gà.
+Ứng dụng Android giúp phát hiện **ổ gà (pothole)** trên đường bằng cách sử dụng **cảm biến gia tốc (Accelerometer)** trên thiết bị di động. Mỗi ổ gà được ghi nhận, định vị và gửi về server để phân tích và xây dựng bản đồ cảnh báo ổ gà.
 
 ## 🎯 Mục tiêu
 
