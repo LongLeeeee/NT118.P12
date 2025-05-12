@@ -24,3 +24,4 @@ Mobile App cung cấp giao diện cho người dùng với các chức năng:
 - Tự động phát hiện và thông tin ổ gà về server.
 - Lấy thông tin ổ gà hiển thị lên bản đồ.
 - Tạo các thống kê liên quan để thời gian di chuyển, quãng đường di chuyển, số lượng ổ gà đã phát hiện.
+  Xem chi tiết [tại đây](https://github.com/LongLeeeee/NT118.P12/tree/main/PoLoT).
