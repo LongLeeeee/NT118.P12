@@ -43,3 +43,25 @@
 | `POST`      | `/api/user/forgot-pasword`   | `Gửi OTP đến email`             |
 | `POST`      | `/api/user/verify`           | `Xác thực OTP`                  |
 | `PUT`       | `/api/user/edit`             | `Thay đổi thông tin người dùng` |
+
+### Triển khai lên VPS
+
+Sử dụng [Dockerfile](https://github.com/LongLeeeee/NT118.P12/blob/main/nodejs_server/Dockerfile) để build ra image.
+
+```sh
+docker build -t abc/polot:latest .
+```
+
+Sau khi build thành công, ta sẽ push image vừa tạo lên một Registry nào đó - ở đây chọn Docker Hub.
+
+```sh
+docker push abc/polot:latest
+```
+
+- Lưu ý: trước khi push phải login trên máy local.
+
+Truy cập vào VPS, tiến hành pull image về và run container.
+
+```sh
+docker run -d -p 8000:8000 --env-file .env abc/polot:latest
+```
